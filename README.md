@@ -10,6 +10,8 @@ A practical guide for Android reverse engineering, static analysis, and mobile a
 This repository documents a structured workflow used in real-world Android security research.
 
 ---
+> Real-world Android security research workflow focused on static analysis, TLS validation, and production code path tracing.
+
 
 ## 🎯 Purpose
 
