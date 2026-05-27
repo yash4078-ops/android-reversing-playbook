@@ -1,7 +1,7 @@
-![Android](https://img.shields.io/badge/Platform-Android-green)
-![Focus](https://img.shields.io/badge/Security-Reverse%20Engineering-red)
-![Type](https://img.shields.io/badge/Research-Mobile%20AppSec-blue)
-![Status](https://img.shields.io/badge/Mode-Educational-success)
+![Platform](https://img.shields.io/badge/Platform-Android-green)
+![Focus](https://img.shields.io/badge/Focus-AppSec-red)
+![Type](https://img.shields.io/badge/Type-Static%20Analysis-blue)
+![Mode](https://img.shields.io/badge/Mode-Educational-success)
 
 ## 🔄 Android App Security Analysis Flow
 
@@ -37,6 +37,7 @@ TLS/SSL Validation Review
 Security Finding Report 📄
    │
    └── Responsible Disclosure
+> A structured Android security research workflow based on static analysis and TLS review of real-world applications.
 
 # Android Reversing Playbook 🔍📱
 
@@ -122,3 +123,7 @@ grep -r "HostnameVerifier"
 grep -r "TrustManager"
 grep -r "OkHttpClient"
 grep -r "Retrofit"
+
+
+**## ⚠️ Disclaimer
+This repository is for educational and defensive security research purposes only.**
