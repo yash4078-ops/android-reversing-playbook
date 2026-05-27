@@ -3,6 +3,41 @@
 ![Type](https://img.shields.io/badge/Research-Mobile%20AppSec-blue)
 ![Status](https://img.shields.io/badge/Mode-Educational-success)
 
+## 🔄 Android App Security Analysis Flow
+
+```text
+APK File
+   │
+   ▼
+apktool (Decompile)
+   │
+   ├── AndroidManifest.xml (Entry Points)
+   │
+   ├── smali_classes/
+   │       │
+   │       ├── OkHttpClient Analysis
+   │       ├── TrustManager Review
+   │       └── HostnameVerifier Check
+   │
+   ▼
+jadx (Source Mapping)
+   │
+   ├── Retrofit Flow
+   ├── API Calls
+   └── Network Layer
+   │
+   ▼
+TLS/SSL Validation Review
+   │
+   ├── Certificate Validation
+   ├── Hostname Verification
+   └── Pinning Checks
+   │
+   ▼
+Security Finding Report 📄
+   │
+   └── Responsible Disclosure
+
 # Android Reversing Playbook 🔍📱
 
 A practical guide for Android reverse engineering, static analysis, and mobile application security testing.
